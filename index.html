@@ -425,10 +425,24 @@
             </div>
         </div>
 
+    <section class="section">
+        <h2 class="section-title">🚀 Project Introduction</h2>
         <div class="info-card">
-            <h3>🚀 Project Introduction</h3>
-            <p>HelpBot AI is a modern AI-powered chatbot designed to provide instant, intelligent, and human-like responses. This project demonstrates chatbot development, natural language processing concepts, and product-style presentation using a futuristic user interface. Built as part of the Parallel Distributed Computing course, it showcases the practical application of NLP techniques and modern web technologies.</p>
+            <h3>About HelpBot AI</h3>
+            <p>HelpBot AI is a modern AI-powered chatbot designed to provide instant, intelligent, and human-like responses with advanced document processing capabilities. This project demonstrates chatbot development, natural language processing concepts, PDF document analysis, and product-style presentation using a futuristic user interface. Built as part of the Parallel Distributed Computing course, it showcases the practical application of NLP techniques, file handling, regex-based text processing, and modern web technologies.</p>
+            
+            <div style="margin-top: 1.5rem; padding: 1.5rem; background: rgba(102, 126, 234, 0.1); border-radius: 10px; border-left: 4px solid #667eea;">
+                <h4 style="color: #667eea; margin-bottom: 1rem;">🎯 Key Capabilities</h4>
+                <ul style="padding-left: 1.5rem; line-height: 1.8;">
+                    <li><strong>Conversational AI:</strong> Engages in natural, context-aware conversations</li>
+                    <li><strong>PDF Document Reading:</strong> Extracts and processes text from PDF files</li>
+                    <li><strong>Document Q&A:</strong> Answers questions about loaded PDF content</li>
+                    <li><strong>Continuous Dialogue:</strong> Maintains conversation flow across multiple exchanges</li>
+                    <li><strong>Smart Intent Detection:</strong> Recognizes user intent from natural language input</li>
+                </ul>
+            </div>
         </div>
+    </section>
     </section>
 
     <section id="process" class="section">
@@ -445,7 +459,7 @@
                 <div class="step-number">2</div>
                 <div>
                     <h3>🧹 Text Preprocessing</h3>
-                    <p>Text is cleaned and normalized using advanced NLP techniques, including lowercasing, punctuation removal, and tokenization.</p>
+                    <p>Text is cleaned and normalized using regex-based techniques, including lowercasing, whitespace trimming, and punctuation removal for accurate pattern matching.</p>
                 </div>
             </div>
             <div class="step">
@@ -475,14 +489,17 @@
     <section class="section">
         <h2 class="section-title">🧠 Technical Implementation</h2>
         <div class="info-card">
-            <h3>Rule-Based NLP Approach</h3>
+            <h3>Advanced Rule-Based NLP System</h3>
             <p>The chatbot implements a sophisticated rule-based natural language processing system with the following components:</p>
             <ul style="margin-top: 1rem; padding-left: 2rem;">
-                <li><strong>Text Normalization:</strong> Converts all input to lowercase for consistent processing</li>
-                <li><strong>Punctuation Handling:</strong> Removes special characters and punctuation marks to improve pattern matching</li>
+                <li><strong>Text Normalization:</strong> Converts all input to lowercase and removes punctuation using regex for consistent processing</li>
+                <li><strong>Intent Recognition:</strong> Pattern-based matching system identifies user intent from predefined categories</li>
+                <li><strong>PDF Processing:</strong> Integrated PyPDF2 library for reading and extracting text from PDF documents</li>
+                <li><strong>Context Awareness:</strong> Maintains PDF content in memory for follow-up questions and document queries</li>
                 <li><strong>Keyword Matching:</strong> Matches user input against a comprehensive database of intents and keywords</li>
                 <li><strong>Response Selection:</strong> Uses randomization to provide varied, natural-feeling responses</li>
-                <li><strong>Error Handling:</strong> Gracefully manages unknown queries with helpful fallback responses</li>
+                <li><strong>Error Handling:</strong> Gracefully manages unknown queries with helpful fallback responses and exception handling</li>
+                <li><strong>Continuous Conversation:</strong> Maintains conversation flow until explicit exit command</li>
             </ul>
         </div>
     </section>
@@ -497,8 +514,13 @@
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🧠</div>
-                <h3>Human-Like Interaction</h3>
-                <p>Natural language processing creates conversations that feel genuine and engaging.</p>
+                <h3>Intelligent Conversations</h3>
+                <p>Advanced intent recognition creates natural, context-aware conversations that feel genuine and engaging.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📄</div>
+                <h3>PDF Document Processing</h3>
+                <p>Reads and extracts text from PDF files, enabling document analysis and question-answering capabilities.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🕒</div>
@@ -519,26 +541,37 @@
             <div class="tech-item">
                 <div style="font-size: 2rem;">🐍</div>
                 <strong>Python</strong>
+                <p style="font-size: 0.85rem; color: #b8b8d1; margin-top: 0.3rem;">Core Language</p>
+            </div>
+            <div class="tech-item">
+                <div style="font-size: 2rem;">📄</div>
+                <strong>PyPDF2</strong>
+                <p style="font-size: 0.85rem; color: #b8b8d1; margin-top: 0.3rem;">PDF Processing</p>
             </div>
             <div class="tech-item">
                 <div style="font-size: 2rem;">🔤</div>
-                <strong>NLTK</strong>
+                <strong>Regex</strong>
+                <p style="font-size: 0.85rem; color: #b8b8d1; margin-top: 0.3rem;">Text Processing</p>
             </div>
             <div class="tech-item">
                 <div style="font-size: 2rem;">📊</div>
                 <strong>Google Colab</strong>
+                <p style="font-size: 0.85rem; color: #b8b8d1; margin-top: 0.3rem;">Development Platform</p>
             </div>
             <div class="tech-item">
                 <div style="font-size: 2rem;">🎨</div>
                 <strong>Bootstrap 5</strong>
+                <p style="font-size: 0.85rem; color: #b8b8d1; margin-top: 0.3rem;">UI Framework</p>
             </div>
             <div class="tech-item">
                 <div style="font-size: 2rem;">🌐</div>
                 <strong>HTML5</strong>
+                <p style="font-size: 0.85rem; color: #b8b8d1; margin-top: 0.3rem;">Web Structure</p>
             </div>
             <div class="tech-item">
                 <div style="font-size: 2rem;">💅</div>
                 <strong>CSS3</strong>
+                <p style="font-size: 0.85rem; color: #b8b8d1; margin-top: 0.3rem;">Modern Styling</p>
             </div>
         </div>
     </section>
